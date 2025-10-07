@@ -21,8 +21,8 @@ contract EmployeeStorage {
         return shares;
     }
     
-    // View function to retrieve the monthly salary of the employee
-    function viewSalary() public view returns (uint32) {
+    // View function to retrieve the monthly salary of employee
+    function viewSalary()  public view returns (uint32) {
         return salary;
     }
 
